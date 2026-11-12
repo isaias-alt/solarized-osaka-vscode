@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.1.0
+## 0.1.2
 
 Initial release.
 
@@ -12,3 +12,5 @@ Initial release.
   `groups/semantic_tokens.lua` rather than the repository's stale Sublime
   `.tmTheme` extras, which still carry markup from an unrelated theme
 - Terminal ANSI palette follows Solarized conventions
+- Extension ID is `solarized-osaka-vscode` because the Marketplace reserves
+  extension names globally and `solarized-osaka` was already taken

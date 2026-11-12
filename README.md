@@ -14,15 +14,25 @@ A Visual Studio Code port of [**solarized-osaka.nvim**](https://github.com/craft
 
 ## Install
 
-From the Marketplace: search for **Solarized Osaka** in the Extensions view.
+From the Marketplace: search for **Solarized Osaka for VS Code**, or install
+directly:
+
+```bash
+code --install-extension isaias-alt.solarized-osaka-vscode
+```
 
 From a `.vsix` file:
 
 ```bash
-code --install-extension solarized-osaka-0.1.0.vsix
+code --install-extension solarized-osaka-vscode-0.1.2.vsix
 ```
 
 Then: `Ctrl/Cmd + K` → `Ctrl/Cmd + T` → pick **Solarized Osaka**.
+
+> The Marketplace keeps extension names unique across *all* publishers, and
+> `solarized-osaka` was already taken, so this port is published as
+> `isaias-alt.solarized-osaka-vscode`. The theme label in the picker is still
+> **Solarized Osaka**.
 
 ## Credits
 
