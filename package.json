@@ -2,7 +2,7 @@
   "name": "solarized-osaka-vscode",
   "displayName": "Solarized Osaka for VS Code",
   "description": "Solarized Osaka for Visual Studio Code — a port of solarized-osaka.nvim by Takuya Matsuyama (craftzdog).",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "publisher": "isaias-alt",
   "license": "Apache-2.0",
   "engines": {

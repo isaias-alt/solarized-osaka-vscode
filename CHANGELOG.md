@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.3
+
+- Removed italics from comments, doc comments, keywords and block quotes.
+  `markup.italic` keeps italic, since that is what the token means.
+
 ## 0.1.2
 
 Initial release.

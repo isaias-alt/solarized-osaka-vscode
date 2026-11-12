@@ -437,14 +437,14 @@
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
         "foreground": "#576d74",
-        "fontStyle": "italic"
+        "fontStyle": ""
       }
     },
     {
       "scope": ["comment.block.documentation", "keyword.other.phpdoc", "comment.block.documentation variable", "comment.block.documentation storage", "comment.block.documentation keyword"],
       "settings": {
         "foreground": "#576d74",
-        "fontStyle": "italic"
+        "fontStyle": ""
       }
     },
     {
@@ -499,7 +499,7 @@
       "scope": ["keyword", "keyword.control", "keyword.other", "keyword.control.flow", "keyword.control.import", "keyword.control.export", "keyword.control.from", "storage.modifier"],
       "settings": {
         "foreground": "#849900",
-        "fontStyle": "italic"
+        "fontStyle": ""
       }
     },
     {
@@ -692,7 +692,7 @@
       "scope": ["markup.quote"],
       "settings": {
         "foreground": "#576d74",
-        "fontStyle": "italic"
+        "fontStyle": ""
       }
     },
     {
