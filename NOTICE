@@ -1,0 +1,19 @@
+Solarized Osaka for Visual Studio Code
+Copyright 2026 isaias-alt
+
+This product is a port of solarized-osaka.nvim.
+
+  Original work: solarized-osaka.nvim
+  Copyright 2024 Takuya Matsuyama
+  https://github.com/craftzdog/solarized-osaka.nvim
+  Licensed under the Apache License, Version 2.0
+
+  Author YouTube channel: https://www.youtube.com/@devaslife
+
+Modifications for Visual Studio Code: this repository translates the original
+Neovim highlight groups and Treesitter captures into VS Code workbench colors,
+TextMate token colors, and semantic token colors. The color palette itself is
+unchanged from the original work.
+
+The Solarized color palette was designed by Ethan Schoonover
+(https://ethanschoonover.com/solarized/) and is used under the MIT License.

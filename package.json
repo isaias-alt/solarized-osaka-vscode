@@ -1,0 +1,46 @@
+{
+  "name": "solarized-osaka",
+  "displayName": "Solarized Osaka",
+  "description": "Solarized Osaka for Visual Studio Code — a port of solarized-osaka.nvim by Takuya Matsuyama (craftzdog).",
+  "version": "0.1.0",
+  "publisher": "isaias-alt",
+  "license": "Apache-2.0",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "light",
+    "solarized",
+    "solarized-osaka",
+    "osaka",
+    "color-theme"
+  ],
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#001419",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/isaias-alt/solarized-osaka-vscode"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Solarized Osaka",
+        "uiTheme": "vs-dark",
+        "path": "./themes/solarized-osaka-color-theme.json"
+      },
+      {
+        "label": "Solarized Osaka Light",
+        "uiTheme": "vs",
+        "path": "./themes/solarized-osaka-light-color-theme.json"
+      }
+    ]
+  }
+}

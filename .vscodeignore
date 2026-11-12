@@ -1,0 +1,9 @@
+vscode:prepublish
+node_modules
+src
+.git
+.github
+.gitignore
+*.vsix
+*.ts
+*.map
