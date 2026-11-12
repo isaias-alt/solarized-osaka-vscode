@@ -1,0 +1,21 @@
+name: Publish
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: read
+  id-token: write   # esto es lo que habilita el OIDC
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      # sin npm ci: el tema no tiene dependencias
+      - run: npx --yes @vscode/vsce publish --oidc
